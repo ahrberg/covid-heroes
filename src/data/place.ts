@@ -7,12 +7,12 @@ export interface Place {
 
 export const places: Place[] = [
   {
-    id: " 45017923-68dc-4b08-8458-2c7254211ad7",
+    id: "45017923-68dc-4b08-8458-2c7254211ad7",
     name: "Intensivvården Blekinge",
     regionId: "1",
   },
   {
-    id: " 4738c3b7-da23-453b-86c9-8e73085244df",
+    id: "4738c3b7-da23-453b-86c9-8e73085244df",
     name: "Intensivvården Dalarna",
     regionId: "2",
   },

@@ -46,7 +46,7 @@ const Home: React.FC = () => {
               color="primary"
               variant="contained"
               size="large"
-              onClick={() => getNewPlace(region)}
+              href={`https://naramsin.typeform.com/to/mGysro?id=${place.id}`}
             >
               Donera
             </Button>
