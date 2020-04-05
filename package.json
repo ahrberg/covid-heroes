@@ -2,7 +2,7 @@
   "name": "covid-heroes",
   "version": "0.1.0",
   "private": false,
-  "homepage": "https://ahrberg.github.io/covid-heroes",
+  "homepage": "http://www.covidheroes.se",
   "dependencies": {
     "@material-ui/core": "^4.9.9",
     "@material-ui/icons": "^4.9.1",
