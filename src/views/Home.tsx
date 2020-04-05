@@ -36,7 +36,7 @@ const Home: React.FC = () => {
         <Box marginTop={10} marginBottom={6}>
           <Grid item>
             <Typography align="center" variant="h2">
-              Grattis du ska ge en donation till
+              Du har fått äran att stötta
             </Typography>
           </Grid>
           <Grid item>
