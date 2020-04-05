@@ -18,7 +18,27 @@ export const places: Place[] = [
   },
   {
     id: "ce451927-7b23-4eab-b269-ade2c144e1b3",
-    name: "Intensivvården Gotland",
+    name: "Näsa och hals Visby Lasarett",
     regionId: "3",
+  },
+  {
+    id: "ce451927-7b23-4eab-b269-ade2c144e3b3",
+    name: "Intensivvården SÖS",
+    regionId: "7",
+  },
+  {
+    id: "ce451927-7b23-4eab-b269-ade2c144e3b3",
+    name: "Akuten Söderhamns sjukhus",
+    regionId: "4",
+  },
+  {
+    id: "ce451927-7b23-4eab-b269-ade2c144e3b3",
+    name: "Materialförådet på Hallands sjukhus",
+    regionId: "5",
+  },
+  {
+    id: "ce431927-7b23-4eab-b269-ade2c144e3b3",
+    name: "Röntgen på Östersunds sjukhus",
+    regionId: "6",
   },
 ];
