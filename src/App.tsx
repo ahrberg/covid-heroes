@@ -13,7 +13,7 @@ function App() {
       <ThemeProvider theme={theme}>
         <CssBaseline />
         <Router>
-          <Header />
+          {/* <Header /> */}
           <Switch>
             <Route path="/about">
               <About />

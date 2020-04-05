@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import { getPlace } from "../helpers/getPlace";
 import Regions from "../components/Regions";
 import { Button, Typography, Container, Grid, Box } from "@material-ui/core";
+import HowItWorks from "../components/HowItWorks";
 
 const Home: React.FC = () => {
   const [place, setPlace] = useState(getPlace("", ""));
@@ -21,14 +22,14 @@ const Home: React.FC = () => {
   };
 
   return (
-    <Container maxWidth="xl">
+    <Container maxWidth="md">
       <Grid
         container
         direction="column"
         justify="flex-start"
         alignItems="center"
       >
-        <Box margin={5}>
+        <Box marginTop={10} marginBottom={6}>
           <Grid item>
             <Typography align="center" variant="h2">
               Grattis du ska ge en donation till
@@ -82,6 +83,7 @@ const Home: React.FC = () => {
           </Grid>
         </Grid>
       </Grid>
+      <HowItWorks />
     </Container>
   );
 };
