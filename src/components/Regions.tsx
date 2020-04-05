@@ -30,6 +30,7 @@ const Regions: React.FC<Props> = ({ onChange }) => {
         id="demo-simple-select"
         value={selected}
         onChange={handleChange}
+        style={{ color: "black" }}
       >
         <option aria-label="None" value="" />
         {regions.map((r) => (
