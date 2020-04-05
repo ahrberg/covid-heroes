@@ -5,6 +5,8 @@ import { Button, Typography, Container, Grid, Box } from "@material-ui/core";
 import HowItWorks from "../components/HowItWorks";
 import Partners from "../components/Partners";
 import TextFade from "../components/TextFade";
+import Contact from "../components/Contact";
+import Team from "../components/Team";
 
 const Home: React.FC = () => {
   const [place, setPlace] = useState(getPlace("", ""));
@@ -85,6 +87,9 @@ const Home: React.FC = () => {
       </Grid>
       <Partners />
       <HowItWorks />
+      <Team />
+      <Contact />
+      <Box marginTop={10}></Box>
     </Container>
   );
 };
