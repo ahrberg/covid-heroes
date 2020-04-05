@@ -1,7 +1,8 @@
 {
-  "name": "med-hero",
+  "name": "covid-heroes",
   "version": "0.1.0",
-  "private": true,
+  "private": false,
+  "homepage": "https://ahrberg.github.io/covid-heroes",
   "dependencies": {
     "@material-ui/core": "^4.9.9",
     "@material-ui/icons": "^4.9.1",
@@ -14,6 +15,7 @@
     "@types/react-dom": "^16.9.0",
     "@types/react-router-dom": "^5.1.3",
     "@types/styled-components": "^5.0.1",
+    "gh-pages": "^2.2.0",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
     "react-router-dom": "^5.1.2",
@@ -22,6 +24,8 @@
     "typescript": "~3.7.2"
   },
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -b master -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
