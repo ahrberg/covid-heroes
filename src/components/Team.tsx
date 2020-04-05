@@ -18,7 +18,7 @@ const Team = () => {
           <a href="https://www.hackthecrisis.se/">Hack The Crisis Sweden</a>
           försöker bridra med det vi kan för att förbättra rådande situation med
           Covid-19. Allt såklart frivilligt och utan vinning. Vill du vara med
-          och hjälpa till är du välkommen att göra av dig! /Georg, Harris &
+          och hjälpa till är du välkommen att höra av dig! /Georg, Harris &
           Naramsin
         </Typography>
       </Grid>
