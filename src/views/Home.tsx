@@ -4,6 +4,7 @@ import Regions from "../components/Regions";
 import { Button, Typography, Container, Grid, Box } from "@material-ui/core";
 import HowItWorks from "../components/HowItWorks";
 import Partners from "../components/Partners";
+import TextFade from "../components/TextFade";
 
 const Home: React.FC = () => {
   const [place, setPlace] = useState(getPlace("", ""));
@@ -37,9 +38,7 @@ const Home: React.FC = () => {
             </Typography>
           </Grid>
           <Grid item>
-            <Typography align="center" variant="h1">
-              {place.name}
-            </Typography>
+            <TextFade text={place.name} />
           </Grid>
         </Box>
         <Grid item>
