@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/covid-heroes/static/css/main.5ecd60fb.chunk.css",
+    "main.js": "/covid-heroes/static/js/main.de93747d.chunk.js",
+    "main.js.map": "/covid-heroes/static/js/main.de93747d.chunk.js.map",
+    "runtime-main.js": "/covid-heroes/static/js/runtime-main.06c26233.js",
+    "runtime-main.js.map": "/covid-heroes/static/js/runtime-main.06c26233.js.map",
+    "static/js/2.2da00842.chunk.js": "/covid-heroes/static/js/2.2da00842.chunk.js",
+    "static/js/2.2da00842.chunk.js.map": "/covid-heroes/static/js/2.2da00842.chunk.js.map",
+    "index.html": "/covid-heroes/index.html",
+    "precache-manifest.cf0f8f16a69dfc802f1e1c9fd67669b4.js": "/covid-heroes/precache-manifest.cf0f8f16a69dfc802f1e1c9fd67669b4.js",
+    "service-worker.js": "/covid-heroes/service-worker.js",
+    "static/css/main.5ecd60fb.chunk.css.map": "/covid-heroes/static/css/main.5ecd60fb.chunk.css.map",
+    "static/js/2.2da00842.chunk.js.LICENSE.txt": "/covid-heroes/static/js/2.2da00842.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.06c26233.js",
+    "static/js/2.2da00842.chunk.js",
+    "static/css/main.5ecd60fb.chunk.css",
+    "static/js/main.de93747d.chunk.js"
+  ]
+}
