@@ -3,6 +3,7 @@ import { getPlace } from "../helpers/getPlace";
 import Regions from "../components/Regions";
 import { Button, Typography, Container, Grid, Box } from "@material-ui/core";
 import HowItWorks from "../components/HowItWorks";
+import Partners from "../components/Partners";
 
 const Home: React.FC = () => {
   const [place, setPlace] = useState(getPlace("", ""));
@@ -83,6 +84,7 @@ const Home: React.FC = () => {
           </Grid>
         </Grid>
       </Grid>
+      <Partners />
       <HowItWorks />
     </Container>
   );
