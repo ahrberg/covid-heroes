@@ -23,17 +23,19 @@ const Regions: React.FC<Props> = ({ onChange }) => {
 
   return (
     <Form>
-      <InputLabel id="demo-simple-select-label">Välj region</InputLabel>
+      <InputLabel htmlFor="age-native-simple">Välj region</InputLabel>
       <Select
+        native
         labelId="demo-simple-select-label"
         id="demo-simple-select"
         value={selected}
         onChange={handleChange}
       >
+        <option aria-label="None" value="" />
         {regions.map((r) => (
-          <MenuItem key={r.id} value={r.id}>
+          <option key={r.id} value={r.id}>
             {r.name}
-          </MenuItem>
+          </option>
         ))}
       </Select>
     </Form>
