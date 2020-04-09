@@ -38,6 +38,11 @@ const Home: React.FC = () => {
       >
         <Grid item>
           <Typography align="center" variant="h1">
+            <span role="img" aria-label="Heroes">
+              🦸🏽‍♀️ 🦸‍♂ 🦸🏿‍♂️ 🦸‍♀️
+            </span>
+          </Typography>
+          <Typography align="center" variant="h1">
             Stötta hjältarna i vården
           </Typography>
         </Grid>
