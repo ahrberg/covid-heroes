@@ -22,7 +22,7 @@ const Team = () => {
             Vi är ett litet team med utvecklare och produktutvecklare som med
             startskottet{" "}
             <a href="https://www.hackthecrisis.se/">Hack The Crisis Sweden</a>{" "}
-            försöker bridra med det vi kan för att förbättra rådande situation
+            försöker bidra med det vi kan för att förbättra rådande situation
             med Covid-19. Allt såklart frivilligt och utan vinning. Vill du vara
             med och hjälpa till är du välkommen att höra av dig! Nu bedrivs
             projektet under den ideella föreningen Covid Heroes /Georg, Harris &

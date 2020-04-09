@@ -21,9 +21,9 @@ const HowItWorks = () => {
         <Grid item>
           <Typography align="justify" variant="body1">
             Många jobbar hårt för att vi ska ta oss igenom Covid-19-pandemin så
-            bra som möjligt. Hjälp till att stötta dom som jobbar hårt genom att
-            skänka ett bidrag som gör deras vardag lite enklare. Stötta tex med
-            en fruktkorg till en intentivvårdsavdelning så att personalen kan få
+            bra som möjligt. Hjälp till att stötta dem som jobbar hårt genom att
+            skänka ett bidrag som gör deras vardag lite enklare. Stötta med en
+            fruktkorg till en intentivvårdsavdelning så att personalen kan få
             lite ny energi mellan varven.
           </Typography>
         </Grid>
@@ -34,7 +34,8 @@ const HowItWorks = () => {
               <li>Välj vad du vill donera</li>
               <li>Betala med kort</li>
               <li>
-                Din donation kommer gruppen till nytta inom några få dagar
+                Din donation kommer sjukvårdspersonalen kunna dra nytta av inom
+                några dagar
               </li>
             </ol>
           </Typography>
