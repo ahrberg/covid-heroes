@@ -30,8 +30,8 @@ const HowItWorks = () => {
         <Grid item>
           <Typography align="left" variant="body1">
             <ol style={{ paddingLeft: "1em" }}>
-              <li>Slumpa fram den grupp du vill stötta</li>
-              <li>Välj vad du vill donera</li>
+              <li>Slumpa fram det sjukhus du vill stötta</li>
+              <li>Välj belopp att donera</li>
               <li>Betala med kort</li>
               <li>
                 Din donation kommer sjukvårdspersonalen kunna dra nytta av inom
