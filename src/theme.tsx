@@ -16,6 +16,9 @@ const defaultTheme = createMuiTheme({
       main: "#dbdbdb",
     },
   },
+  typography: {
+    fontFamily: ["Istok Web", "sans-serif"].join(","),
+  },
 });
 const {
   breakpoints,
