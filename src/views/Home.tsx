@@ -7,6 +7,7 @@ import Partners from "../components/Partners";
 import TextFade from "../components/TextFade";
 import Contact from "../components/Contact";
 import Team from "../components/Team";
+import Divider from "../components/Divider";
 
 const Home: React.FC = () => {
   const [place, setPlace] = useState(getPlace("", ""));
@@ -26,43 +27,40 @@ const Home: React.FC = () => {
   };
 
   return (
-    <Container maxWidth="md">
+    <Container maxWidth="sm">
       <Grid
         container
         direction="column"
         justify="flex-start"
         alignItems="center"
+        spacing={3}
+        style={{ marginTop: "40px" }}
       >
-        <Box marginTop={10} marginBottom={6}>
-          <Grid item>
-            <Typography align="center" variant="h2">
-              Du har fått äran att stötta
-            </Typography>
-          </Grid>
-          <Grid item>
-            <TextFade text={place.name} />
-          </Grid>
-        </Box>
         <Grid item>
-          <Box margin={0}>
-            <Button
-              color="primary"
-              variant="contained"
-              size="large"
-              href={`https://naramsin.typeform.com/to/mGysro?id=${place.id}`}
-            >
-              Donera
-            </Button>
-          </Box>
+          <Typography align="center" variant="h1">
+            Stötta hjältarna i vården
+          </Typography>
         </Grid>
         <Grid item>
-          <Box marginTop={5}>
-            <Typography variant="caption">
-              Nyfiken på att påverka valet själv?
-            </Typography>
-          </Box>
+          <Button
+            color="primary"
+            variant="contained"
+            size="large"
+            href={`https://naramsin.typeform.com/to/mGysro?id=${place.id}`}
+          >
+            Donera
+          </Button>
         </Grid>
         <Grid item>
+          <Typography variant="h3">ditt bidrag går till</Typography>
+        </Grid>
+        <Grid item>
+          <TextFade text={place.name} />
+        </Grid>
+        <Grid item style={{ textAlign: "center" }}>
+          <Typography variant="caption">
+            Nyfiken på att påverka valet själv?
+          </Typography>
           <Grid
             container
             direction="row"
@@ -75,8 +73,9 @@ const Home: React.FC = () => {
             </Grid>
             <Grid item>
               <Button
-                variant="text"
+                variant="contained"
                 color="secondary"
+                size="small"
                 onClick={() => getNewPlace(region)}
               >
                 Slumpa ny
@@ -85,10 +84,16 @@ const Home: React.FC = () => {
           </Grid>
         </Grid>
       </Grid>
-      <Partners />
-      <HowItWorks />
-      <Team />
-      <Contact />
+      <Divider />
+      <Box marginTop={6} marginBottom={4}>
+        <HowItWorks />
+      </Box>
+      <Box marginTop={6} marginBottom={4}>
+        <Team />
+      </Box>
+      <Box marginTop={6} marginBottom={4}>
+        <Contact />
+      </Box>
       <Box marginTop={10}></Box>
     </Container>
   );

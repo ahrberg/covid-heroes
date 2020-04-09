@@ -26,6 +26,7 @@ const Regions: React.FC<Props> = ({ onChange }) => {
       <InputLabel htmlFor="age-native-simple">Välj region</InputLabel>
       <Select
         native
+        variant="standard"
         labelId="demo-simple-select-label"
         id="demo-simple-select"
         value={selected}

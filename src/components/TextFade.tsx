@@ -20,7 +20,7 @@ const TextFade: React.FC<Props> = ({ text }) => {
 
   return (
     <Fade in={show}>
-      <Typography align="center" variant="h1">
+      <Typography align="center" variant="h2">
         {display}
       </Typography>
     </Fade>

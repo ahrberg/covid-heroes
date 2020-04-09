@@ -3,14 +3,14 @@ import { createMuiTheme } from "@material-ui/core";
 const defaultTheme = createMuiTheme({
   palette: {
     text: {
-      primary: "#fff",
+      primary: "#000",
       secondary: "#dbdbdb",
     },
     background: {
-      default: "#27769F",
+      default: "#ffffff",
     },
     primary: {
-      main: "rgb(0,45,90)",
+      main: "#002D5A",
     },
     secondary: {
       main: "#dbdbdb",
@@ -27,15 +27,23 @@ const theme = {
   overrides: {
     MuiTypography: {
       h1: {
-        fontSize: "5rem",
+        fontSize: "2.5rem",
         [breakpoints.down("xs")]: {
-          fontSize: "3rem",
+          fontSize: "2rem",
         },
       },
       h2: {
-        fontSize: "4rem",
+        fontSize: "2rem",
+        marginBottom: "10px",
         [breakpoints.down("xs")]: {
-          fontSize: "2rem",
+          fontSize: "1.5rem",
+        },
+      },
+      h3: {
+        fontSize: "1.5rem",
+        fontWeight: "300",
+        [breakpoints.down("xs")]: {
+          fontSize: "1rem",
         },
       },
     },
