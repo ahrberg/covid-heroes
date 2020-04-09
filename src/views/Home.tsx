@@ -37,11 +37,28 @@ const Home: React.FC = () => {
         style={{ marginTop: "40px" }}
       >
         <Grid item>
-          <Typography align="center" variant="h1">
-            <span role="img" aria-label="Heroes">
-              🦸🏽‍♀️ 🦸‍♂ 🦸🏿‍♂️ 🦸‍♀️
-            </span>
-          </Typography>
+          <div style={{ textAlign: "center" }}>
+            <img
+              style={{ height: "50px", marginLeft: "5px", marginRight: "5px" }}
+              alt="Hero"
+              src="https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/120/apple/237/man-superhero_1f9b8-200d-2642-fe0f.png"
+            />
+            <img
+              style={{ height: "50px", marginLeft: "5px", marginRight: "5px" }}
+              alt="Hero"
+              src="https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/120/apple/237/superhero_emoji-modifier-fitzpatrick-type-4_1f9b8-1f3fd_1f3fd.png"
+            />
+            <img
+              style={{ height: "50px", marginLeft: "5px", marginRight: "5px" }}
+              alt="Hero"
+              src="https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/120/apple/237/superhero_1f9b8.png"
+            />
+            <img
+              style={{ height: "50px", marginLeft: "5px", marginRight: "5px" }}
+              alt="Hero"
+              src="https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/120/apple/237/man-superhero-medium-dark-skin-tone_1f9b8-1f3fe-200d-2642-fe0f.png"
+            />
+          </div>
           <Typography align="center" variant="h1">
             Stötta hjältarna i vården
           </Typography>
